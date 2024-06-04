@@ -43,7 +43,7 @@ function deleteTask() {
 
 function editTask(taskElement) {
     const newTaskDesc = prompt("Edit your task:", taskElement.textContent);
-    if (newTaskDesc !== null & newTaskDesc.trim() !== "") {
+    if (newTaskDesc !== null && newTaskDesc.trim() !== "") {
         taskElement.textContent = newTaskDesc;
     }
 }
